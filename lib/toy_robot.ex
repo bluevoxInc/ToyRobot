@@ -29,7 +29,8 @@ defmodule ToyRobot do
   end
   @doc """
   Places the robot in the provided position,
-  but prevents it to be placed outside of the table and facing invalid direction.
+  but prevents it from being placed outside of the table
+  and from facing in an invalid direction.
 
   Examples:
 
