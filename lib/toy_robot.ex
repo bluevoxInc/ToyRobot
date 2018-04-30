@@ -83,5 +83,7 @@ defmodule ToyRobot do
   end
   def move(robot), do: robot
 
-
+  def failure do
+    raise "Connection has been lost"
+  end
 end
